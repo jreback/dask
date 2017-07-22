@@ -49,7 +49,8 @@ conda install -q -c conda-forge \
     scikit-learn \
     scipy \
     sqlalchemy \
-    toolz
+    toolz \
+    pandas-compat
 
 pip install -q git+https://github.com/dask/partd --upgrade --no-deps
 pip install -q git+https://github.com/dask/zict --upgrade --no-deps
